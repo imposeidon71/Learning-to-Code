@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Schmidt Show!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="webpage-title">Welcome to the Schmidt Show!</h1>
+    <div class="main-content">
+        <div class="left-content">
+            <div class="content-box">
+                <h2>Schmidty News</h2>
+                <div class="content">Created this webpage for a way the family can keep track of all the latest news and happenings.  Reach out to me if you want to add any news, photos or events to the page! </div>
+                <div class="content2">Chloe and Alaina will be coming home this Thursday, March 6th and will be in town until Monday, March 10th!  Can't wait to see them!</div>
+                <div class="content3">Crystal's birthday is on March 7th.  Happy Birthday Crystal Gayle!</div>
+            </div>
+            <div class="content-box">
+                <h2>Schmansion Updates</h2>
+                <div class="content">Whole house generator install is nearly complete.  Gas service to the house was upsized to support the new generator.  Replaced the 100gal above ground tank with a 380 gal, buried tank.  Just waiting on electrical vendor to finish connecting and testing the generator.  Next project will be fencing in the front yard so that Maximus can have some room to run, play and likely destroy things!</div>
+            </div>
+            <div class="content-box">
+                <h2>Schmotos</h2>
+                <div class="content slideshow">
+                    <img class="slide" src="images/img1.jpg" alt="Photo 1">
+                    <img class="slide" src="images/img2.jpeg" alt="Photo 2">
+                    <img class="slide" src="images/img3.jpg" alt="Photo 3">
+                    <img class="slide" src="images/img4.jpeg" alt="Photo 4">
+                    <img class="slide" src="images/img5.jpeg" alt="Photo 5">
+                    <img class="slide" src="images/img6.jpeg" alt="Photo 6">
+                    <img class="slide" src="images/img7.jpeg" alt="Photo 7">
+                    <img class="slide" src="images/img8.jpeg" alt="Photo 8">
+                    <img class="slide" src="images/img9.jpeg" alt="Photo 9">
+                    <img class="slide" src="images/img10.jpeg" alt="Photo 10">
+                    <img class="slide" src="images/img11.jpeg" alt="Photo 11">
+                    <img class="slide" src="images/img12.jpeg" alt="Photo 12">
+                    <img class="slide" src="images/img13.jpeg" alt="Photo 13">
+                    <img class="slide" src="images/img14.jpeg" alt="Photo 14">
+                    <img class="slide" src="images/img15.jpg" alt="Photo 15">
+                    <img class="slide" src="images/img16.jpeg" alt="Photo 16">
+                    <img class="slide" src="images/img17.jpeg" alt="Photo 17">
+                    <img class="slide" src="images/img18.jpeg" alt="Photo 18">
+                    <img class="slide" src="images/img19.jpeg" alt="Photo 19">
+                    <img class="slide" src="images/img20.jpg" alt="Photo 20">
+                    <img class="slide" src="images/img21.jpeg" alt="Photo 21">
+                    <img class="slide" src="images/img22.jpeg" alt="Photo 22">
+                    <img class="slide" src="images/img23.jpeg" alt="Photo 23">
+                    <img class="slide" src="images/img24.jpg" alt="Photo 24">
+                    <img class="slide" src="images/img25.jpeg" alt="Photo 25">
+                    <img class="slide" src="images/img26.jpeg" alt="Photo 26">
+                    <img class="slide" src="images/img27.jpg" alt="Photo 27">
+                    <img class="slide" src="images/img28.jpeg" alt="Photo 28">
+                    <img class="slide" src="images/img29.jpeg" alt="Photo 29">
+                    <img class="slide" src="images/img30.jpeg" alt="Photo 30">
+                    <img class="slide" src="images/img31.jpeg" alt="Photo 31">
+                    <img class="slide" src="images/img32.jpeg" alt="Photo 32">
+                    <img class="slide" src="images/img33.jpeg" alt="Photo 33">
+                    <img class="slide" src="images/img34.jpeg" alt="Photo 34">
+                    <img class="slide" src="images/img35.jpeg" alt="Photo 35">
+                    <img class="slide" src="images/img36.jpeg" alt="Photo 36">
+                    <img class="slide" src="images/img37.jpeg" alt="Photo 37">
+                    <img class="slide" src="images/img38.jpeg" alt="Photo 38">
+                    <img class="slide" src="images/img39.jpeg" alt="Photo 39">
+                    <img class="slide" src="images/img40.jpg" alt="Photo 40">
+                    <img class="slide" src="images/img41.jpeg" alt="Photo 41">
+                    <img class="slide" src="images/img42.jpeg" alt="Photo 42">
+                    <img class="slide" src="images/img43.jpeg" alt="Photo 43">
+                    <img class="slide" src="images/img44.jpg" alt="Photo 44">
+                    <img class="slide" src="images/img45.jpg" alt="Photo 45">
+                    <img class="slide" src="images/img46.jpg" alt="Photo 46">
+                    <img class="slide" src="images/img47.jpeg" alt="Photo 47">
+                    <img class="slide" src="images/img48.jpeg" alt="Photo 48">
+                    <img class="slide" src="images/img49.jpg" alt="Photo 49">
+                    <img class="slide" src="images/img50.jpg" alt="Photo 50">
+                    <img class="slide" src="images/img51.png" alt="Photo 51">
+                    <!-- Add more images as needed -->
+                </div>
+            </div>
+        </div>
+        <div class="right-content">
+            <div class="card">
+                <div class="calendar-toolbar">
+                    <button class="month-btn prev">&lt;</button>
+                    <div class="current-month"></div>
+                    <button class="month-btn next">&gt;</button>
+                </div>
+                <div class="weekdays">
+                    <div class="weekday-name">SU</div>
+                    <div class="weekday-name">MO</div>
+                    <div class="weekday-name">TU</div>
+                    <div class="weekday-name">WE</div>
+                    <div class="weekday-name">TH</div>
+                    <div class="weekday-name">FR</div>
+                    <div class="weekday-name">SA</div>
+                </div>
+                <div class="calendar-days"></div>
+            </div>
+            <div class="events-list">
+                <h2>This month's Schmappenings</h2>
+                <div id="monthEvents"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup Form -->
+    <div id="eventPopup" class="event-popup">
+        <div class="event-popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2>Add/Edit Event</h2>
+            <form id="eventForm">
+                <label for="eventDate">Date:</label>
+                <input type="date" id="eventDate" required>
+                <label for="eventTitle">Title:</label>
+                <input type="text" id="eventTitle" required>
+                <label for="eventDetails">Details:</label>
+                <textarea id="eventDetails" rows="3"></textarea>
+                <label for="recurring">Recurring:</label>
+                <select id="recurring">
+                    <option value="none">None</option>
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                </select>
+                <label for="recurrenceStart">Recurrence Start Date:</label>
+                <input type="date" id="recurrenceStart">
+                <label for="recurrenceEnd">Recurrence End Date:</label>
+                <input type="date" id="recurrenceEnd">
+                <button type="submit">Add Event</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="calendar.js"></script>
+    <script src="slideshow.js"></script>
+    
+  </body>
+</html>
